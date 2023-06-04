@@ -1,0 +1,44 @@
+.bcontainer {
+  width: 300px;
+  height: 280px;
+  display: inline-block;
+  border: none;
+  text-align: start;
+  margin-left: 4em;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-bottom: 2em;
+  box-shadow: 0 4px 10px black;
+  border-radius: 0.28em;
+}
+.bcontainer img {
+  width: 200px;
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+.bcontainer h4 {
+  word-wrap: break-word;
+  margin-left: 0.4em;
+  margin-right: 0.4em;
+  text-align: start;
+  font-size: 0.8em;
+}
+.bcontainer {
+    /* ... your existing styles ... */
+    
+    /* Add scrollbar styles */
+    scrollbar-width: thin;
+    scrollbar-color: #888888 #dddddd;
+  }
+  
+  .bcontainer::-webkit-scrollbar {
+    width: 8px;
+    background-color: #dddddd;
+    border-radius: 4px;
+  }
+  
+  .bcontainer::-webkit-scrollbar-thumb {
+    background-color: #888888;
+    border-radius: 4px;
+  }

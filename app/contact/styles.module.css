@@ -1,0 +1,66 @@
+/* ContactPage.module.css */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #f4f9ff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 1em;
+}
+
+.heading {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.contactInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.infoItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon {
+  display: inline-block;
+  font-size: 24px;
+  color: #ff5252;
+  margin-right: 12px;
+}
+
+.info {
+  font-size: 16px;
+  color: #555;
+}
+
+.button {
+  display: inline-block;
+  background-color: #ff5252;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ff3a3a;
+}
+
+/* Font Awesome icons */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
